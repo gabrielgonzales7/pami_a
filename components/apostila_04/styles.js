@@ -45,6 +45,11 @@ const styles = StyleSheet.create({
         color: '#FFCDD2', 
         textAlign: 'center', 
     }, 
+    nomes: {
+        alignSelf: "flex-start",
+        marginLeft: 60,
+        fontFamily: 'sans-serif'
+      },
 });
 
 export default styles;
