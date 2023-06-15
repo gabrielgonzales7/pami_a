@@ -34,9 +34,15 @@ const styles = StyleSheet.create({
     button: {
       backgroundColor: '#E91E63', 
       height: 40, 
+<<<<<<< HEAD
       justifyContent: 'center', 
       borderRadius: 10, 
       marginTop: 20, 
+=======
+      borderRadius: 10, 
+      marginTop: 20,
+      width: 60,
+>>>>>>> 2e45fa9c082a479439efd8fdad76cad6c25e332c
     }, 
     textButton: {
       fontSize: 22, 
@@ -48,6 +54,14 @@ const styles = StyleSheet.create({
       fontWeight: 'bold', 
       color: '#C51162',     
     }, 
+<<<<<<< HEAD
+=======
+    containerbutton: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+    },
+
+>>>>>>> 2e45fa9c082a479439efd8fdad76cad6c25e332c
   });
   
   export default styles;
