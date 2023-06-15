@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-import React, { useState } from "react";
-import { Text, View, StyleSheet, TextInput, TouchableOpacity} from 'react-native';
-import styles from "./styles";
-
-export default function Index() {
-    return (
-=======
 import React, {useState} from 'react';
 import { Text, View, StyleSheet, TextInput, TouchableOpacity} from 'react-native';
 import styles from './styles';
@@ -41,16 +33,10 @@ export default function Apostila05 ()    {
     }
 
     return(
->>>>>>> 2e45fa9c082a479439efd8fdad76cad6c25e332c
         <View style={styles.container}>
             <Text style={styles.paragraph}>
                 Exemplo 5
             </Text>
-<<<<<<< HEAD
-        </View>
-    );
-}
-=======
             <Text style={styles.txtSaida}> Calculadora Basica</Text>
 
             <Text style={styles.textLabel}>1º Número</Text>
@@ -102,4 +88,3 @@ export default function Apostila05 ()    {
     );
 }
 
->>>>>>> 2e45fa9c082a479439efd8fdad76cad6c25e332c
